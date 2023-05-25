@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&family=Inter:wght@200;300;600;800&family=Karla:wght@200;300&family=PT+Sans:wght@400;700&family=Roboto&family=Space+Mono:ital@1&display=swap');
+
+:root{
+    --brown: #331b00;
+    --gold: #ed9c28;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.m{
+    margin: 4rem;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+input{
+    width: 24rem;
+    height: 3rem;
+    border-color: var(--gold);
+    border-radius: 5px;
+    color: var(--brown);
+    font-size: 30px;
+    text-indent: 15px;
+}
+
+
+button{
+    padding: 14px 44px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: var(--brown);
+    transition: background-color .2s;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--gold);
+    border: 1px solid var(--brown);
+}
+
+#respuesta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gold);
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
